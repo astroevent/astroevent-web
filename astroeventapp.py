@@ -5,8 +5,8 @@ app.secret_key = 'oh a secret key'
 
 @app.route('/')
 def index():
-    return "<p>Hello World!</p>"
+    return "<center><p>Hello World!</p></center>"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()
