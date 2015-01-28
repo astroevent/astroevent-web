@@ -1,2 +1,2 @@
-web: gunicorn astroeventapp:app --log-file=-
+web: gunicorn astroevent:app --log-file=-
 
